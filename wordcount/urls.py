@@ -10,4 +10,5 @@ urlpatterns = [
      
      #Assignment
      path('about',views.about,name='about'),
+     
 ]
