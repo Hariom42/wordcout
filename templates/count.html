@@ -1,0 +1,24 @@
+<h1>Word  Counted </h1>
+<a href="{% url 'home' %}">back to main page</a>
+<h2>Your entered text is    =  {{fulltextarea}}</h2>
+<br>
+<h2>
+in above text total words = {{total_words}}
+</h2>
+<br>
+<!--<h4>{{worddictionary}}</h4>-->
+<!-- for printing all items in dictinary in key ,value formate and stored as a variable-->
+{% for x,y in worddictionary %}
+{{x}} = {{y}}
+<br>
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
